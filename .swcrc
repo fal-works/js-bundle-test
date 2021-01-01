@@ -3,7 +3,7 @@
     "parser": {
       "syntax": "typescript"
     },
-    "target": "es2015",
+    "target": "es2016",
     "loose": true
   }
 }
