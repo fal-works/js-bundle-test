@@ -31,6 +31,7 @@
   "scripts": {
     "build": "run-s tsc rollup terser",
     "esbuild": "node scripts/esbuild.js",
+    "esbuild-minify": "node scripts/esbuild-minify.js",
     "rollup": "node scripts/rollup.js",
     "swc": "npx swc src -d out",
     "tsc": "tsc --skipLibCheck",

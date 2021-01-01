@@ -12,8 +12,11 @@ const tsEntryFilePath = "src/index.ts";
 /** Path to the entry point of JavaScript files. */
 const jsEntryFilePath = "out/index.js";
 
-/** Path of the distribution file. */
+/** Path to the distribution file. */
 const distFilePath = "dist/sketch.js";
+
+/** Path to the minified distribution file. */
+const minFilePath = distFilePath.replace(/(.*)\.js/, "$1.min.js");
 
 /** External variable names. */
 const external = ["p5"];
@@ -28,6 +31,7 @@ export {
   tsEntryFilePath,
   jsEntryFilePath,
   distFilePath,
+  minFilePath,
   external,
   globals,
 };
