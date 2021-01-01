@@ -26,6 +26,18 @@
       "plugins": [
         "@typescript-eslint"
       ]
+    },
+    {
+      "files": [
+        "./scripts/**/*.js"
+      ],
+      "env": {
+        "es6": true,
+        "node": true
+      },
+      "parserOptions": {
+        "ecmaVersion": 2020
+      }
     }
   ]
 }
