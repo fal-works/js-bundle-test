@@ -6,6 +6,7 @@
     "@rollup/plugin-node-resolve": "^11.0.1",
     "@swc/cli": "^0.1.27",
     "@swc/core": "^1.2.43",
+    "@types/node": "^14.14.17",
     "@types/p5": "^0.9.1",
     "@typescript-eslint/eslint-plugin": "4.11.1",
     "@typescript-eslint/parser": "^4.11.1",
@@ -34,6 +35,7 @@
     "esbuild-minify": "node scripts/esbuild-minify.js",
     "rollup": "node scripts/rollup.js",
     "swc": "npx swc src -d out",
+    "swc-minify": "node scripts/swc-minify.js",
     "tsc": "tsc --skipLibCheck",
     "terser": "node scripts/terser.js",
     "types": "tsc --skipLibCheck --emitDeclarationOnly"

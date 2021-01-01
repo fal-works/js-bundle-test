@@ -2,6 +2,7 @@ devDependencies:
   '@rollup/plugin-node-resolve': 11.0.1_rollup@2.35.1
   '@swc/cli': 0.1.27_@swc+core@1.2.43
   '@swc/core': 1.2.43
+  '@types/node': 14.14.17
   '@types/p5': 0.9.1
   '@typescript-eslint/eslint-plugin': 4.11.1_9c022763c2e3d67a193e8dc202e075a9
   '@typescript-eslint/parser': 4.11.1_eslint@7.16.0+typescript@4.1.3
@@ -1808,6 +1809,7 @@ specifiers:
   '@rollup/plugin-node-resolve': ^11.0.1
   '@swc/cli': ^0.1.27
   '@swc/core': ^1.2.43
+  '@types/node': ^14.14.17
   '@types/p5': ^0.9.1
   '@typescript-eslint/eslint-plugin': 4.11.1
   '@typescript-eslint/parser': ^4.11.1
