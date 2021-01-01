@@ -1,7 +1,4 @@
-import p5 from "p5";
-import * as sketch from "./sketch";
+import { newP5 } from "./p5-util";
+import { methods } from "./p5-methods";
 
-new p5((p: p5) => {
-  p.setup = sketch.setup.bind(undefined, p);
-  p.draw = sketch.draw.bind(undefined, p);
-});
+newP5(methods);
