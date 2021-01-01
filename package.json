@@ -29,11 +29,12 @@
   "license": "CC0-1.0",
   "private": true,
   "scripts": {
-    "build": "run-s tsc rollup",
+    "build": "run-s tsc rollup terser",
     "esbuild": "node scripts/esbuild.js",
     "rollup": "node scripts/rollup.js",
     "swc": "npx swc src -d out",
     "tsc": "tsc --skipLibCheck",
+    "terser": "node scripts/terser.js",
     "types": "tsc --skipLibCheck --emitDeclarationOnly"
   }
 }
